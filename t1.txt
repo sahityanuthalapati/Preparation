@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>Document</title>
+        <style type="text/css">
+            #banner{
+                background-color: black; width: 97%; height: 120px;
+                position: relative;
+            }
+            #banner_headline{
+                background-color: gray;
+                color: black;
+                margin-left: 150px;
+                width: 30%;
+                height: 120px;
+                line-height: 3;
+                font-family: serif;
+                font-size: xx-large;
+                text-align: center;
+                position: absolute;
+                float: left;
+            }
+            #banner_menu{
+                background-color: gray;
+                width: 65%;
+                height: 120px;
+                margin-left: 700px;
+                margin-right: 50px;
+                line-height: 5;
+                position: absolute;
+            }
+            #banner_menu a{
+                color: black;
+                margin-right: 30px;
+                font-size: x-large;
+                line-height: 4;
+                margin-left: 5px;
+                text-align: justify;
+            }
+            #main{
+                background-color: rgb(0, 80, 120); 
+                height: 1200px;
+                width: 97%;
+            }
+            #bsm{
+                 background-color: rgb(0, 80, 120);
+                 color:white;
+                 border: 1px solid gray; 
+                 border-radius: 10px; width: 500px;
+                 text-align: left; 
+                 margin-left: 260px; 
+                 text-align: center; 
+                 padding: 10fx;
+                 float: left;
+            }
+            #skills{
+                 background-color: rgb(0, 80, 120); 
+                 color:white; 
+                 width: 80%; 
+                 height: 150px;
+                 font-size: medium;
+                 text-align: justify;
+                 margin-left: 10px;
+                 float: left;
+            }
+            #webdesign{
+                 background-color: rgb(0, 80, 120);
+                 color:white;
+                 border: 1px solid gray; 
+                 width: 500px;
+                 border-radius: 10px;
+                 text-align: left;
+                 margin-left: 180px;
+                 text-align: center; 
+                 float: left;
+            }
+            #technical{
+                 background-color: rgb(0, 80, 120);
+                 color:white;
+                 width: 80%;
+                 height: 150px;
+                 text-align: justify;
+                 margin-left: 10px; 
+                 float: left;
+
+            }
+            #salesforce{
+                 background-color: rgb(0, 80, 120);
+                 color:white; 
+                 border: 1px solid gray;
+                 width: 500px;
+                 border-radius: 10px; 
+                 text-align: left;
+                 margin-left: 180px; text-align: center; float: left;
+            }
+            #course{
+                background-color: rgb(0, 80, 120); color:white; width: 80%; height: 150px; text-align: justify; margin-left: 10px; float: left;
+            }
+            #blog{
+                background-color: gainsboro; width: 79%; height: 500px; margin-left: 220px; margin-top: 440px;}
+            #index{
+                background-color: white; width: 25%; height: 470px; margin-left: 20px; margin-top: 10px; padding-left: 3%; float: left; font-size: x-large; font-family: 'Times New Roman', Times, serif;
+            } 
+            #index a{
+                  color: black; width: 60%; height: 100px; margin-top: 80px; line-height: 0.3; font-size: x-large; font-family: 'Times New Roman', Times, serif;
+            }
+            #content{
+                background-color: white; color: black; width: 50%; height: 480px; margin-left: 560px; margin-top: 10px; padding-left: 3%; text-align: left; position: absolute;
+            } 
+            #resources{
+                    color: black; height: 150px; margin-left: 10px; text-align: justify; font-size: x-large; padding-left: 3%; font-family: 'Times New Roman', Times, serif;
+            }
+            #list1{
+                    color: black; float: left; width: 60%; height: 100px; margin-top: 10px; line-height: 0.1; font-size: x-large; font-family: 'Times New Roman', Times, serif
+            }
+            #list2{
+                    color: black; float: left; width: 40%; height: 250px; margin-top: 10px; line-height: 0.1; font-size: x-large; font-family: 'Times New Roman', Times, serif
+                }
+            #footer{
+                background-color: black;
+                color: white;
+                height: 160px;
+                width: 75%;
+                margin-left: 1px;
+                margin-top: 500px;
+                float: left;
+                padding: 10px;
+                position: fixed;
+            }
+            #footer a{
+                text-align: right;
+                margin-left: 70px;
+                float: left;
+            }
+            #permission{
+                color: white;
+                font-size: sm;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                line-height: 5;
+                text-align: center;
+                margin-left: 1000px;
+            }
+
+        </style>
+    </head>
+    <body>
+      <div id="banner">
+        <div id="banner_headline">SFD4 Computing</div>
+        <div id="banner_menu">
+          <a href="home.html">Home</a>
+          <a href="about us.html">About Us</a>
+          <a href="Services.html">Services</a>
+          <a href="Partners.html">Partners</a>
+          <a href="Contact Us.html">Contact Us</a>
+      </div>
+    </div>
+    <div id="main">
+        <br>
+        <br>
+        </br>
+        </br>
+        <div id="bsm">
+            <h3>BSM</h3>
+            <div id="skills">
+               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Qui odio quaerat maiores hic, id eos consectetur assumenda tempore digniddimos rerum saepe tentur,
+                officia harum non! Pariatur quasi sit nisi a?</p>
+            </div>
+           </div>
+        <div id="webdesign">
+            <h3>Web Design</h3>
+             <div id="technical">
+                <p>Lorem ipsum dolor sit, amet consectetur adipiscing elit. Officiis quae magnam quidem beatae illum, nemo doloribus architecto voluptatem fugit corporis totam earum dolores possimus iure.</p>
+             </div>
+         </div>    
+        <div id="salesforce">
+            <h3>Salesforce</h3>
+            <div id="course">
+                <p>Lorem ipsum dolor sit, amet consecectur adipisicing elit. Aut aperiam repellat laudantium perspiciatis sit accusantium enim amet porro repudiandae consequatur, voluptate ipsum, eaque, doloremque corporis!</p>
+            </div>
+        </div>
+        <div id="blog">
+        <div id="index">
+            <h3>Links</h3>
+            <ul>
+                <a href="html.html"><h6>HTML</h6></a>
+                <a href="css.html"><h6>CSS</h6></a>
+                <a href="git.html"><h6>GIT</h6></a>
+                <a href="git hub.html"><h6>GIT HUB</h6></a>
+                <a href="salesforce basics.html"><h6>SALESFORCE BASICS</h6></a>
+                <a href="trailhead.html"><h6>TRAILHEAD</h6></a>
+                <a href="dex403.html"><h6>DEX403</h6></a>
+                <a href="dex450.html"><h6>DEX450</h6></a>  
+            </ul>
+        </div>  
+        <div id="content">
+            <h2>Extra Support</h3> 
+            <div id="resources">
+                <p>lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe recusandae, earum reiciendis illum nobis ipsa ut perspiciatis explicabo expedia quod? Temporibus reiciendis odit ab delectus. Tenetur accusamus aliquid adipisci neque totam iure impedit eum earum quo, tempore consequatur nulla culpa! Consequuntur fuga facere ipsum ullam ea neque ut natus. </p>    </div>  
+             <div id="list1">
+                <ul>
+                    <li><a href="Adaptability.html"><h6>Adaptability</h6></a></li>
+                    <li><a href="Teamwork.html"><h6>Teamwork</h6></a></li>
+                    <li><a href="communication.html"><h6>Communication</h6></a></li>
+                    <li><a href="Personal Responsibility.html"><h6>Person Responsibility</h6></a></li>
+                </ul>
+              </div>  
+                <div id="list2">
+                <ol>
+                    <li><a href="persistance.html"><h6>Persistance</h6></a></li>
+                    <li><a href="future orientation.html"><h6>Future orientation</h6></a></li>
+                    <li><a href="proactiveness.html"><h6>Proactivness</h6></a></li>
+                    <li><a href="Growth mindset.html"><h6>Growth mindset</h6></a></li>
+                </ol>
+             </div>
+        </div>
+        <div id="footer">
+            <h3>Contact Us</h3>
+            <a href="https //m.facebook.com/">
+                <img alt="Facebook" src="images/Facebook.png" width="80" height="80" /></a>
+            <a href="https://twitter.com/">
+                <img alt="Twitter" src="images/twitter.jpg" width="80" height="75" /></a>
+            <a href="https://www.youtube.com/">
+                    <img alt="Youtube" src="images/Youtube.png" width="80" height="75" /></a>
+            <div id="permission">
+            @Copy Right of SFD4 2022
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
